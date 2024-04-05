@@ -1,7 +1,5 @@
-from wagtail.contrib.modeladmin.options import (
-    ModelAdmin,
-    modeladmin_register
-)
+from wagtail_modeladmin.options import ModelAdmin, modeladmin_register
+
 
 try:
     from wagtail import hooks
